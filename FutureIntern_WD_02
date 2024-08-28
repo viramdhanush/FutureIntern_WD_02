@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.contact, .portfolio {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.contact h2, .portfolio h2 {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+}
+
+    </style>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Dhanush. I'm a web developer with skills in HTML, CSS, and more. Explore my work below!</p>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:your.email@example.com">kdhanushnani@gmail.com</a></p>
+        <p>Phone: +91-7660847659</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/kore-dhanush</a></p>
+    </section>
+
+    <section class="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <h3>IOT BASED ON WEATHER MONITORING AND CONTROLING
+            </h3>
+            <p>An Iot-based weather monitoring and controlling project involves using
+                internet-connected devices to measure various environmental parameters such as
+                temperature, humidity, and pressure. 
+                </p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Dhanush]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
